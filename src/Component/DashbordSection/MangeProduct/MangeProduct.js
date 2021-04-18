@@ -6,12 +6,12 @@ import Sidebar from '../Sidebar/Sidebar';
 const MangeProduct = () => {
     const[mangProduct,setManageproduct]=useState([])
     useEffect(()=>{
-        fetch("http://localhost:4500/viewProduct")
+        fetch("https://calm-spire-51951.herokuapp.com/viewProduct")
         .then(res=>res.json())
         .then(data=>setManageproduct(data))
     },[])
     const handleDelete=(id)=>{
-        fetch(`http://localhost:4500/productDelete/${id}`,{
+        fetch(`https://calm-spire-51951.herokuapp.com/productDelete/${id}`,{
             method:"DELETE"
         })
         .then(res=>res.json())

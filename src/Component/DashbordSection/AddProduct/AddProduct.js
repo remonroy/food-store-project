@@ -36,7 +36,7 @@ const AddProduct = () => {
             image:file,
 
         }
-        fetch('http://localhost:4500/addProduct',{
+        fetch('https://calm-spire-51951.herokuapp.com/addProduct',{
             method:'POST',
             headers:{'content-type':'application/json'},
             body:JSON.stringify(allInfo)

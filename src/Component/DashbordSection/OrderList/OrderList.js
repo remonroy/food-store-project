@@ -7,7 +7,7 @@ const OrderList = () => {
     const [loogeduser,setLoogeduser]=useContext(userContext)
     const[allOrderlist,setAllorderlist]=useState([])
     useEffect(()=>{
-        fetch("http://localhost:4500/orderLisht?email="+loogeduser.email)
+        fetch("https://calm-spire-51951.herokuapp.com/orderLisht?email="+loogeduser.email)
         .then(res=>res.json())
         .then(orderInfo=>setAllorderlist(orderInfo))
     },[])

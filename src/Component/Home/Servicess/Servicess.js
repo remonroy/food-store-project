@@ -30,7 +30,7 @@ import ServicesInfo from '../ServicesInfo/ServicesInfo';
 const Servicess = () => {
     const[service,setService]=useState([])
     useEffect(()=>{
-        fetch("http://localhost:4500/viewProduct")
+        fetch("https://calm-spire-51951.herokuapp.com/viewProduct")
         .then(res=>res.json())
         .then(data=>{
             

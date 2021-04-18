@@ -41,7 +41,7 @@ const PaymentForm = ({singleProductShow}) => {
     const handleSubmit=(event)=>{
       const orderServices={...loogeduser,singleProductShow,paymentId}
         
-        fetch("http://localhost:4500/singleProductOrder",{
+        fetch("https://calm-spire-51951.herokuapp.com/singleProductOrder",{
             method:"POST",
             headers:{"Content-Type":"application/json"},
             body:JSON.stringify(orderServices)

@@ -16,7 +16,7 @@ const UserOrder = () => {
     let {id}=useParams()
 
     useEffect(()=>{
-        fetch(`http://localhost:4500/sigleProductshow/${id}`)
+        fetch(`https://calm-spire-51951.herokuapp.com/sigleProductshow/${id}`)
         .then(res=>res.json())
         .then(singleInfo=>{
             console.log(singleInfo);

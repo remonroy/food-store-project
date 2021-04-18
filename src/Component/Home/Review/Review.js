@@ -4,7 +4,7 @@ import ReviewInfo from '../ReviewInfo/ReviewInfo';
 const Review = () => {
     const[viewReview,setViewReview]=useState([])
     useEffect(()=>{
-        fetch("http://localhost:4500/reviewCollectionView")
+        fetch("https://calm-spire-51951.herokuapp.com/reviewCollectionView")
         .then(res=>res.json())
         .then(data=>setViewReview(data))
     },[])

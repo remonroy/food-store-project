@@ -14,7 +14,7 @@ const AddAmin = () => {
         const allInfo={
             admin:info.admin,
         }
-        fetch('http://localhost:4500/addAdmin',{
+        fetch('https://calm-spire-51951.herokuapp.com/addAdmin',{
             method:'POST',
             headers:{'content-type':'application/json'},
             body:JSON.stringify(allInfo)

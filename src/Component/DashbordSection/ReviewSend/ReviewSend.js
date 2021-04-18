@@ -34,7 +34,7 @@ const ReviewSend = () => {
             review:info.review,
             image:file,
         }
-        fetch('http://localhost:4500/reviewCollection',{
+        fetch('https://calm-spire-51951.herokuapp.com/reviewCollection',{
             method:'POST',
             headers:{'content-type':'application/json'},
             body:JSON.stringify(allreviewInfo)
