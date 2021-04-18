@@ -1,0 +1,29 @@
+.sitebar {
+    width: 95px;
+    float: left;
+}
+.rightbar {
+    width: 80px;
+    float: right;
+    background: orange;
+    display: grid;
+    place-items: center;
+    margin-top: 32px;
+    margin-right: 26px;
+    border-radius: 5px;
+}
+.rightbar small {
+    padding: 3px;
+}
+.over {
+    overflow: hidden;
+}
+.main h4 {
+    margin-top: 17px;
+    
+}
+.borderingg {
+    box-shadow: 5px 10px 18px #888888;
+    padding: 5px;
+    
+}

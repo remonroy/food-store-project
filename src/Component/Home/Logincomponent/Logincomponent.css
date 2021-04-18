@@ -1,0 +1,8 @@
+.bakcground{
+    height: 500px;
+    background-color: #40485B;
+    background-image: url('../../../image/service-four.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}

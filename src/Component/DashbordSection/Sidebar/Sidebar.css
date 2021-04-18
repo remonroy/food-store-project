@@ -1,0 +1,31 @@
+.sidebar {
+    background-color: skyblue;
+    height: 600px;
+}
+svg.svg-inline--fa.fa-plus.fa-w-14 {
+    margin-right: 8px;
+}
+svg.svg-inline--fa.fa-user-cog.fa-w-20 {
+    margin-right: 8px;
+}
+svg.svg-inline--fa.fa-user-alt.fa-w-16 {
+    margin-right: 8px;
+}
+svg.svg-inline--fa.fa-lock.fa-w-14 {
+    margin-right: 8px;
+}
+svg.svg-inline--fa.fa-th-large.fa-w-16 {
+    margin-right: 8px;
+}
+svg.svg-inline--fa.fa-shopping-cart.fa-w-18 {
+    margin-right: 8px;
+}
+svg.svg-inline--fa.fa-comment-dots.fa-w-16 {
+    margin-right: 8px;
+}
+ul li {
+    line-height: 42px;
+}
+.coloring{
+    color:#333
+}

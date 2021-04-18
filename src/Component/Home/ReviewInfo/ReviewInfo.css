@@ -1,0 +1,6 @@
+.transformingg{
+    transition: 0.3s;
+}
+.transformingg:hover{
+    transform: scale(1.1);
+}
